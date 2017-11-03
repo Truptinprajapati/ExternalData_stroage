@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.trupti.external_storage.MainActivity">
+
+    <EditText
+        android:id="@+id/uname"
+        android:hint="enter your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/internal_cache"
+        android:text="internal cache"
+        android:onClick="saveInternalCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/external_cache"
+        android:text="Enternal cache"
+        android:onClick="saveExternalCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/External_private"
+        android:text="External private"
+        android:onClick="savePrivateExternalFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/External_public"
+        android:text="External public"
+        android:onClick="savePublicExternalFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/next"
+        android:text="next"
+        android:onClick="next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.trupti.external_storage.Second_activity">
+
+    <EditText
+        android:id="@+id/loaddata"
+        android:hint="load for your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/loadinternal_cache"
+        android:text="Load for internal cache"
+        android:onClick="loadInternalcache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/loadexternal_cache"
+        android:text="Load for External cache"
+        android:onClick="loadExternalcache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/loadExternal_private"
+        android:text="Load External private"
+        android:onClick="loadExternalprivate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/loadExternal_public"
+        android:text="Load for External public"
+        android:onClick="loadExternalPublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/previous"
+        android:text="previous"
+        android:onClick="previous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
